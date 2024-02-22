@@ -1,0 +1,35 @@
+.signup-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center; /* Center align the contents */
+  }
+  
+  /* Form styling */
+  form {
+    display: inline-block;
+    text-align: left; /* Reset text alignment for form elements */
+  }
+  
+  /* Form input styling */
+  form div {
+    margin-bottom: 15px; /* Add spacing between form elements */
+  }
+  
+  /* Button styling */
+button[type="submit"] {
+    display: block;
+    margin: 0 auto; /* Center the button horizontally */
+    padding: 10px 20px;
+    background-color: #45a049;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Button hover effect */
+  button[type="submit"]:hover {
+    background-color: #45a049;
+  }
+  
